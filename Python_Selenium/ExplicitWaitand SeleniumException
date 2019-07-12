@@ -1,0 +1,16 @@
+Expected Conditions:
+There are some frequently encountered conditions when automating Web Browsers for Testing Web/Mobile Applications. The Java, C# and Python bindings include those convenient methods so we don’t have to write-up an ExpectedCondition class ourselves or create our own utility package for them. Some of the Expected Conditions are:
+
+alertIsPresent()
+elementToBeClickable(locator)
+elementToBeSelected(WebElement)
+frameToBeAvailableAndSwitchToIt(locator)
+invisibilityOf(element)
+
+
+So your Automation Script may be facing any of these exceptions:
+
+NoSuchElementException
+TimeoutException
+ElementNotVisibleException
+ElementNotSelectableException
